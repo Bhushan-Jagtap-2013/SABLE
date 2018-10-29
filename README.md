@@ -170,3 +170,11 @@ Then the **passphrase** will be displayed to the user if and only if the boot
 configuration is valid, AND the provided credentials were correct. If the user
 recognizes the passphrase as the one associated with the SEC, he/she types "YES"
 in all capitals to proceed with the boot.
+
+## Steps Involed in TPM Launch - (MLE Launch Intel)
+
+1. TXT Detection and Processor Preparation 
+2. Detection of Previous Errors 
+3. Loading the SINIT AC Module
+4. Loading the MLE and Processor Rendezvous
+5. Performing a Measured Launch
